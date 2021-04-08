@@ -1,0 +1,180 @@
+:root {
+  --dark-grey-blue: hsl(210, 10%, 33%);
+  --grey-blue: hsl(201, 11%, 66%)
+}
+
+
+
+#clipLogo {
+  width: 100px;
+  margin: 0 auto 50px auto;
+  display: block;
+}
+
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+#head h1 {
+  font-size: 2.75rem;
+  color: var(--dark-grey-blue);
+}
+
+#slogan {
+  width: 50%;
+  margin: 0 auto;
+  color: var(--grey-blue);
+  font-weight: 400;
+}
+
+.button {
+  width: 175px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.iOS {
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 1px 2px 20px 0px hsl(171deg 66% 44% / 42%);
+}
+
+.Mac {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 1px 2px 20px 0px hsl(233deg 100% 69% / 45%);
+}
+
+.center {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+  color: var(--grey-blue);
+}
+
+.center p {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h2, h5 {
+  color: var(--dark-grey-blue);
+}
+
+
+p {
+  color: var(--grey-blue);
+}
+#section1 {
+  display: block;
+  margin-bottom: 325px;
+}
+
+#section1 #text1{
+  padding-top: 30px;
+  width: 35%;
+  margin: 0px 50px 0px auto;
+}
+
+#section1 h5 {
+  margin-top: 35px;
+  font-size: 1.3rem;
+}
+
+#comp-pic {
+  position: relative;
+  left: -50px;
+  display: inline-block;
+  float:left;
+}
+
+#devicesimg {
+  width: 905px;
+  display: block;
+  margin: 40px auto;
+}
+
+#points {
+  width: 75%;
+  margin: 0 auto 50px auto;
+}
+
+#points img {
+  margin-bottom: 25px;
+
+}
+.point-banner-card {
+  display: inline-block;
+  text-align: center;
+  height: 170px;
+  color: var(--grey-blue);
+}
+
+.point-banner-card h5 {
+  color: var(--dark-grey-blue);
+  margin-bottom: 20px;
+}
+
+#references .row {
+  text-align: center;
+  margin: 80px 0px;
+}
+
+.container {
+  max-width: 1440px !important;
+}
+
+.center h2 {
+  margin-bottom: 40px;
+}
+
+#footerLogo {
+  width: 100px;
+  display: inline;
+}
+
+#footerTable {
+  display: inline;
+}
+
+#footerTable > .row {
+  width: 60%;
+  display: inline-flex;
+  padding-left:150px;
+}
+
+.socmedlogo {
+  display: inline;
+  width: 30%;
+
+}
+
+.socmedlogo > img {
+  margin: 0px 20px;
+}
+
+
+@media (min-width: 1300px){
+  body {
+    width: 1440px;
+    margin: 0 auto;
+  }
+
+  #head {
+    padding:75px 0;
+    background-image: url('./images/bg-header-desktop.png');
+    background-position: 0px -50px;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 400px){
+  body {
+    width: 375px;
+    margin: 0 auto;
+  }
+}
