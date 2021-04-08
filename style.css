@@ -34,6 +34,7 @@ body {
   border: none;
   color: white;
   cursor: pointer;
+  margin: 20px 0px;
 }
 
 .iOS {
@@ -120,6 +121,7 @@ p {
 #references .row {
   text-align: center;
   margin: 80px 0px;
+  padding: 40px 0px;
 }
 
 .container {
@@ -131,8 +133,9 @@ p {
 }
 
 #footerLogo {
-  width: 100px;
+  width: 80px;
   display: inline;
+  margin: 20px 70px;
 }
 
 #footerTable {
